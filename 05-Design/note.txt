@@ -1,0 +1,58 @@
+Overview of web desing and website personalities
+
+Web design ingredients i'll learn about
+1. Typography  2. Colors   3. Images/Illustrations 4. Icons
+5. Shadows  6. Border-radius 7. Whitespace 8. Viaual Hierarchy
+9. User Experience   10. Components/Layout
+
+
+Overview of Website personalities
+1. Serious/Elegant: For luxury and elegance, based on thin serif typefaces, golden or pastel colors, and big high-quality images.
+
+2. Minimalist/Simple: Focuses on the essential text content, using small or medium-sized sans-serif black text, lines and few images and icons.
+
+3. Plain/neutral: Design that gets out of the way by using neutral and small tyoefaces and a very structured layout. Common in big corporations E.g. Micrisoft
+
+4. Bold/Confident: Makes an impact, by featuring big and bold typography, paired with confident use of big and bright colored blocks e.g. endplan
+
+5. Calm/Peaceful: For products and services tha care, transmitted by calming pastel colors, soft serif headings, and matching images/illustrations. e.g. Octave
+
+6. Startup/Upbeat: Widely used in startups, featuring medium-sized sans-serif typefaces, light-grey text and backgrounds, and rounded elements. e.g. Capsule
+
+7. Playful/Fun: Colourful and round designs, fueled by creative elements like hand-drawn icons or illustrations, animations, and fun language.
+
+WEB DESIGN RULES #1: Typography
+
+Typography is the art and technique of arranging type to make written language legible, readable and appealing when displayed.
+
+SERIF VS SANS-SERIF
+
+Serif typeface
+
+- Creates a traditional / classical look and feel 
+- Conveys trustworthiness
+- Good for long text (Article / Magazine)
+
+SANS-SERIF
+- Modern look and feel
+- Clean and simple 
+- Easier to choose for beginner designers
+
+RULES ON Typography
+
+1. Use only good and polular typefaces and play it safe. E.g. 
+SANS-SERIF(Inter, Open Sans, Roboto, Montserrat, Work Sans and Lato) 
+SERIF(Merriweather, Aleo, Playfair Display, Cormorant, Cardo and Lora) 
+
+2. It's okay to ue just one typeface per page! If you want more, limit to 2 typefaces
+
+3. Choose the right typeface according to your website personality.
+
+4. Use good font sizes and weights. When choosing font-sizes, limit choices! Use a "type scale" tool or other pre-defined range.
+
+5. Use a font size BTW 16px and 32px for "normal text". 
+we
+
+
+
+

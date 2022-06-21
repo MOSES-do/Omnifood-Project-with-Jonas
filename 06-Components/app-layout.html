@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rubik:wght@400;500;700;800&display=swap"
+    rel="stylesheet">
+
+
+<style>
+    /*
+    SPACING SYSTEM (px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+    FONT SIZE SYSTEM (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+    type-scale.coms
+    */
+
+    /* 
+    MAIN-COLOR: #087f5b;
+    GREY-COLOR: #343a40  //TEXT
+    */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-family: 'Rubik', sans-serif;
+        color: #343a40;
+    }
+
+
+    section {
+        display: grid;
+        grid-template-columns: 80px 1fr 2fr 240px;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .side-bar {
+        grid-row: 1/-4;
+        background-color: #343a40;
+        text-align: center;
+
+
+        /* display: flex;
+        justify-content: space-evenly; */
+    }
+
+    .side-bar p {
+        padding-top: 28px;
+        font-size: 24px;
+        font-weight: 500;
+        color: white;
+    }
+
+    .nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .btn {
+        margin-right: 30px;
+        background-color: #d6363c;
+        padding: 8px 16px;
+        list-style: none;
+    }
+
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        padding: 25px 50px;
+        margin-left: -20px;
+    }
+
+
+    /* links */
+    .btn-link:link,
+    .btn-link:visited {
+        text-decoration: none;
+        background-color: #5f3dc4;
+        color: white;
+        padding: 8px 16px;
+    }
+
+    .btn-link:hover,
+    .btn-link:active {
+        background-color: yellow;
+        color: black;
+    }
+
+    menu {
+        grid-column: 2 / -1;
+        background-color: #7048e8;
+        padding: 8px 0px;
+        min-width: 400px;
+
+    }
+
+    /* MAIN */
+    .msg-containerwhole,
+    .email-view {
+        padding-top: 30px;
+    }
+
+    .msg-containerwhole {
+        background-color: #e9ecef;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        font-weight: 700;
+        font-size: 22px;
+        min-width: 350px;
+        overflow-y: scroll;
+        height: 100vh;
+
+
+    }
+
+    .msg-container {
+        background-color: #adb5bd;
+        padding: 30px 100px;
+    }
+
+    .email-view {
+        text-align: center;
+    }
+
+    .aside {
+        background-color: #e9ecef;
+        text-align: center;
+        padding: 30px;
+        min-width: 240px;
+
+    }
+</style>
+
+<body>
+
+    <section class="grid">
+        <div class="side-bar">
+            <p>Nav</p>
+        </div>
+
+
+        <menu>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="#" class="btn-link">New</a></li>
+                    <li><a href="#" class="btn-link">Reply</a></li>
+                    <li><a href="#" class="btn-link">Forward</a></li>
+                    <li><a href="#" class="btn-link">Mark Unread</a></li>
+                </ul>
+
+                <div class="btn">
+                    <li>Trash</li>
+                </div>
+            </nav>
+
+        </menu>
+
+        <main class="main">
+            <div class="msg-containerwhole">
+                <h4>Inbox</h4>
+                <div class="msg-container">Email 1</div>
+                <div class="msg-container">Email 2</div>
+                <div class="msg-container">Email 3</div>
+                <div class="msg-container">Email 4</div>
+                <div class="msg-container">Email 5</div>
+                <div class="msg-container">Email 6</div>
+                <div class="msg-container">Email 6</div>
+                <div class="msg-container">Email 6</div>
+                <div class="msg-container">Email 6</div>
+                <div class="msg-container">Email 6</div>
+                <div class="msg-container">Email 6</div>
+                <div class="msg-container">Email 6</div>
+            </div>
+        </main>
+
+        <div class="email-view">
+            <h2>Email view</h2>
+        </div>
+
+        <div class="aside">
+            <h2>Additional info</h2>
+        </div>
+    </section>
+
+</body>
+
+</html>
